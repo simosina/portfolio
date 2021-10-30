@@ -1,3 +1,4 @@
+import Scrollspy from "react-scrollspy";
 import "./topbar.scss";
 
 export default function Topbar({ scrolled }) {
@@ -8,7 +9,13 @@ export default function Topbar({ scrolled }) {
                     <img src="assets/logo-red.svg" alt="" />
                 </a>
                 <div className="right">
-                    <ul className={"menu " + (scrolled && "scrolled")}>
+                    <Scrollspy
+                        className={"menu " + (scrolled && "scrolled")}
+                        items={['main', 'about', 'resume', 'portfolio', 'contact']}
+                        currentClassName="currentSection"
+                        offset={-80} // topbar height = 80px
+                    >
+                        <li> {/* empty li for the main section */ } </li>
                         <li>
                             <a href="#about">ABOUT</a>
                         </li>
@@ -21,7 +28,7 @@ export default function Topbar({ scrolled }) {
                         <li>
                             <a href="#contact">CONTACT</a>
                         </li>
-                    </ul>
+                    </Scrollspy>
                     <div className="hamburger">
 
                     </div>
