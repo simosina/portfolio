@@ -1,1 +1,11 @@
 $mainColor: #15023a;
+
+$topBarHeight: 80px;
+
+/* RESPONSIVE */ 
+$width: 576px;
+@mixin mobile {
+    @media screen and (max-width: #{$width}) {
+        @content
+    }
+}
