@@ -9,6 +9,9 @@ export default function Main() {
                     <h1>Simone Sinagra</h1>
                     <h3>Software Engineer</h3>
                     <div className="social">
+                        <a href="https://github.com/simosina96" target="_blank" rel="noreferrer">
+                            <img src="assets/github.svg" alt="" />
+                        </a>
                         <a href="https://www.linkedin.com/in/simone-sinagra/" target="_blank" rel="noreferrer">
                             <img src="assets/linkedin.svg" alt="" />
                         </a>
