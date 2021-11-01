@@ -7,7 +7,7 @@ import Portfolio from './components/portfolio/Portfolio';
 import Resume from './components/resume/Resume';
 import Topbar from "./components/topbar/Topbar";
 
-const SCROLL_OFFSET = 150
+const SCROLL_OFFSET = 80;
 
 function App() {
 

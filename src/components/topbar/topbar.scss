@@ -10,7 +10,7 @@
     transition: all .2s ease;
 
     &.scrolled {
-        background-color: rgba(255, 255, 255, 0.9);
+        background-color: rgba(255, 255, 255, 1);
         box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 12px;
     }
 
@@ -19,10 +19,10 @@
         align-items: center;
         justify-content: space-between;
         height: 100%;
-        padding: 0 80px;
+        padding: 0 $paddingX;
 
         @include mobile {
-            padding: 0 40px;
+            padding: 0 $sm_paddingX;
         }
 
         .left {
@@ -45,48 +45,27 @@
                     display: none;
                 }
 
-                color: gray;
-                font-weight: 300;
-                font-size: 18px;
-                text-decoration: none;
+                color: white;
+                &.scrolled {
+                    color: black
+                }
 
                 li {
+                    opacity: 0.5;
                     &:hover {
-                        color: white;
-                        font-weight: 400;
+                        opacity: 1;
                     }
 
                     &.currentSection {
-                        color: white;
-                        font-weight: 400;
+                        opacity: 1;
                     }
 
                     a {
-                        font-size: inherit;
+                        font-size: 18px;
+                        font-weight: 400;
+                        text-decoration: none; 
                         color: inherit;
-                        font-weight: inherit;
-                        text-decoration: inherit;   
-                    }
-                }
-
-                &.scrolled {
-                    li {
-                        &:hover {
-                            color: black;
-                            font-weight: 400;
-                        }
-    
-                        &.currentSection {
-                            color: black;
-                            font-weight: 400;
-                        }
-    
-                        a {
-                            font-size: inherit;
-                            color: inherit;
-                            font-weight: inherit;
-                            text-decoration: inherit;   
-                        }
+                        opacity: inherit;  
                     }
                 }
             }   

@@ -3,16 +3,11 @@
 .app {
   
   .sections {
-      width: 100%;
-      max-width: 100%;
-
+      width: 100vw;
+      
       > *{
-        width: 100vw;
-        min-height: 80vh; /* TODO - tmp to show the divs */
-        padding: $topBarHeight 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        min-height: 80vh;
+        padding: $topBarHeight $paddingX;
     }
   }
 }
