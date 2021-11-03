@@ -10,7 +10,7 @@
     transition: all .2s ease;
 
     &.scrolled {
-        background-color: rgba(255, 255, 255, 1);
+        background-color: $backgroundLight;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 12px;
     }
 
@@ -51,7 +51,7 @@
                 }
 
                 li {
-                    opacity: 0.5;
+                    opacity: 0.6;
                     &:hover {
                         opacity: 1;
                     }
