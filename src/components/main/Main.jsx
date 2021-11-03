@@ -5,9 +5,9 @@ export default function Main() {
         <div className="main" id="main">
             <div className="left">
                 <div className="wrapper">
-                    <h2>Hi there, I am</h2>
+                    <h4>Hi there, I am</h4>
                     <h1>Simone Sinagra</h1>
-                    <h3>Software Engineer</h3>
+                    <h4>Software Engineer</h4>
                     <div className="social">
                         <a href="https://github.com/simosina96" target="_blank" rel="noreferrer">
                             <img src="assets/github.svg" alt="" />
