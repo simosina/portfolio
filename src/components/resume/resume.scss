@@ -1,4 +1,67 @@
 @import "../../global.scss";
 
 .resume {
+    background-color: $backgroundLight;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        text-align: left;
+        width: 100%;
+    }
+
+    .wrapper {
+        width: fit-content;
+        
+        .experience {
+            margin-bottom: 36px;
+            display: flex;
+            flex-direction: row;
+            .left {
+                width: 280px;
+
+                h5 {
+                    margin: 0;
+                    font-weight: 600;
+                    font-size: 18px;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 300;
+                }
+            }
+
+            .right {
+                width: 460px;
+                
+                h5 {
+                    margin: 0;
+                    font-weight: 600;
+                    font-size: 18px
+                }
+
+                p, li {
+                    font-size: 16px;
+                    font-weight: 300;
+                }
+
+                .location {
+                    display: flex;
+                    align-items: center;
+                    p {
+                        font-size: 16px;
+                        font-weight: 300;
+                        margin-left: 8px;
+                    }
+                }
+            }
+        }
+
+        hr {
+            opacity: .8;
+        }
+    }
 }

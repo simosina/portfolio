@@ -6,7 +6,7 @@ export default function Topbar({ scrolled }) {
         <div className={"topbar " + (scrolled && "scrolled")}>
             <div className="wrapper">
                 <a href="#main" className="left">
-                    <img src="assets/logo-red.svg" alt="" />
+                    <img src="assets/logo-blue.svg" alt="" />
                 </a>
                 <div className="right">
                     <Scrollspy

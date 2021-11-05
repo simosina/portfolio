@@ -8,7 +8,7 @@ export default function About() {
     useEffect(() => {
         const interval = setInterval(() => {
             setActiveWord((oldActiveWord) => (oldActiveWord + 1) % 3);
-        }, 2000);
+        }, 3000);
         return () => clearInterval(interval);
     }, []);
 
@@ -35,7 +35,7 @@ export default function About() {
                     </div>
                     <div className="right">
                         <div className="aboutDetails">
-                            <h5>Personal Details</h5>
+                            <h5>Details</h5>
                             <div className="separator dotted" />
                             <p><span>Name:</span> Simone Sinagra</p>
                             <p><span>Date of birth:</span> March 23, 1996</p>

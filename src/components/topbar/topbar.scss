@@ -2,15 +2,15 @@
 
 .topbar {
     width: 100vw;
-    height: $topBarHeight;
-    background-color: transparent;
+    height: 128px;
+    background-color: $darkBackground;
     z-index: 2;
     position: fixed;
     top: 0;
-    transition: all .2s ease;
+    transition: all .4s ease;
 
     &.scrolled {
-        background-color: $backgroundLight;
+        height: $topBarHeight;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 12px;
     }
 
@@ -47,10 +47,12 @@
 
                 color: white;
                 &.scrolled {
-                    color: black
+                    color: white
                 }
 
                 li {
+                    font-weight: 400;
+                    color: inherit;
                     opacity: 0.6;
                     &:hover {
                         opacity: 1;
@@ -58,11 +60,13 @@
 
                     &.currentSection {
                         opacity: 1;
+                        color: $accentColor;
+                        font-weight: 600;
                     }
 
                     a {
                         font-size: 18px;
-                        font-weight: 400;
+                        font-weight: inherit;
                         text-decoration: none; 
                         color: inherit;
                         opacity: inherit;  
