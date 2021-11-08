@@ -14,10 +14,16 @@ $sm_paddingX: 48px;
 
 
 /* RESPONSIVE */ 
-$width: 576px;
+$mobileWidth: 576px;
 @mixin mobile {
-    @media screen and (max-width: #{$width}) {
+    @media screen and (max-width: #{$mobileWidth}) {
         @content;
     }
 }
 
+$tabletWidth: 1024px;
+@mixin tablet {
+    @media screen and (max-width: #{$tabletWidth}) {
+        @content;
+    }
+}

@@ -20,32 +20,33 @@ export default function About() {
                 <h6>&#8212; Who Am I</h6>
                 <div className="content">
                     <div className="left">
-                        <h4> I am a
+                        <h5> I am a
                             <span className="wordsWrapper">
                                 <span className={activeWord !== 0 && 'hidden'}>Front-End Developer</span>
                                 <span className={activeWord !== 1 && 'hidden'}>Big Data Analyst</span>
                                 <span className={activeWord !== 2 && 'hidden'}>Full Stack Developer</span>
                             </span>
-                        </h4>
+                        </h5>
 
-                        <p>Ciao, mi presento, mi chiamo Simone Sinagra. All'età di 25 anni ho conferito la laurea magistrale in Computer Engineer presso il Politecnico di Torino.
-                            Durante la mia carriera universitaria ho avuto modo di sviluppare diversi progetti curriculari ed extra-curriculari, utilizzando la maggior parte delle tecnologie
-                            moderne per lo sviluppo software. Amo sviluppare awesome applicazioni mobile e applicazioni per il web, ma ho anche un ottimo background nella data analysis e nei principali algoritmi di ML.
-                            Ho avuto modo di fare progetti seguendo sia approccio agile sia waterfall, e sono pronto a mettere in pratica tutte le mie conoscenze anche in grandi progetti.
-                            Sono in continuo aggiornamento riguardo le tecnologie informatiche... E la mia curiosità mi porta a ricercare continuamente nuove opportunità. </p>
+                        <p>
+                            Hi, I'm Simone. Let me introduce myself... In 2021, I graduated from the <strong>Politecnico of Torino</strong> with a degree in <strong>Computer Engineering</strong>. During the university career I had the opportunity to develop several projects, on my own and within teams, using most of the modern technologies for software development.
+                        </p>
+                        <p>
+                            I get a kick out of developing wonderfull <strong>mobile and web applications</strong> by adopting a human-centered design process to deliver high quality user experiences.
+                            I builded software following both an <strong>agile</strong> and <strong>waterfall</strong> approach, increasing my knowledge for the main techniques and tools used to support the development.
+                            I also have a robust knowledge in <strong>data analysis</strong> and some <strong>Machine Learning</strong> algorithms.
+                        </p>
+                        <p>
+                            I enjoy keeping up to date on IT changes everyday and searching continuously for new opportunitis.
+                        </p>
+
+                        <div className="buttons">
+                            <a href="files/cv.pdf" className="outlinedButton m" download>Download CV</a>
+                            <a href="#contact" className="button m">Contact Me</a>
+                        </div>
                     </div>
                     <div className="right">
-                        <div className="aboutDetails">
-                            <h5>Details</h5>
-                            <div className="separator dotted" />
-                            <p><span>Name:</span> Simone Sinagra</p>
-                            <p><span>Date of birth:</span> March 23, 1996</p>
-                            <p><span>Languages:</span> Italian, English</p>
-                        </div>
-                        <div className="buttons">
-                            <a href="#contact" className="button">Hire Me</a>
-                            <button>Download CV</button>
-                        </div>
+                        <img src="assets/about-simo.jpeg" alt="" />
                     </div>
                 </div>
             </div>
@@ -74,7 +75,7 @@ export default function About() {
 
             <div className="skills">
                 <h6>&#8212; My skills</h6>
-                <p>...</p>
+                <p>Bending Spoons: "Tech stack expertise. You’re flexible, with a generalist approach and a solid knowledge of a number of technologies, especially Java and HTML. Python is a handy nice-to-have, too."</p>
             </div>
 
         </section>
