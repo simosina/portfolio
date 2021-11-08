@@ -6,6 +6,9 @@ import Portfolio from './components/portfolio/Portfolio';
 import Resume from './components/resume/Resume';
 import Topbar from "./components/topbar/Topbar";
 
+import "./app.scss";
+import ComingSoon from './comingSoon/ComingSoon';
+
 const SCROLL_OFFSET = 80;
 
 function App() {
@@ -13,8 +16,8 @@ function App() {
   const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
-    
-    
+
+
     const scrollListener = document.addEventListener("scroll", () => {
       if (window.scrollY >= SCROLL_OFFSET) {
         setScrolled(true);
@@ -32,14 +35,17 @@ function App() {
 
   return (
     <div className="app">
-      <Topbar scrolled={scrolled} />
-      <Main />
-      <div className="sections">
-        <About />
-        <Resume />
-        <Portfolio />
-        <Contact />
+      <div className="wrapper">
+        <Topbar scrolled={scrolled} />
+        <Main />
+        <div className="sections">
+          <About />
+          <Resume />
+          <Portfolio />
+          <Contact />
+        </div>
       </div>
+      <ComingSoon />
     </div>
   );
 }

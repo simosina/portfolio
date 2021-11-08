@@ -100,19 +100,3 @@ li {
 ul {
     margin: 0 0 8px 0;
 }
-
-a {
-    font-size: 18px;
-    line-height: 1.8;
-    color: $accentColor;
-    font-weight: 300;
-    font-style: normal;
-    text-rendering: optimizeLegibility;
-    text-decoration: none;
-    margin: 6px 0;
-    &:hover {
-        color: $accentColorDark;
-    }
-}
-
-

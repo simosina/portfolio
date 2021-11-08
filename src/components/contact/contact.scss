@@ -4,102 +4,152 @@
     background-color: $backgroundDark;
     padding: $topBarHeight $paddingX;
 
-    .header {
-        max-width: 700px;
-        margin: 0 auto 30px;
-        text-align: center;
-        padding: 0;
+    .contactInfo {
+        margin: 16px 0 24px 0;
 
-        h1 {
-            color: white;
-            margin-bottom: 16px;
-        }
+        .content {
+            margin: 38px auto 48px auto;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            max-width: 700px;
 
-        p {
-            color: rgba(255, 255, 255, 0.7);
-            margin-bottom: 38px;
+            .wrapper {
+                width: 280px;
+    
+                svg {
+                    width: 42px;
+                    height: 42px;
+                    stroke: white;
+                }
+    
+                h6 {
+                    color: white;
+                }    
+    
+                a {
+                    margin-bottom: 38px;
+                    font-size: 18px;
+                    line-height: 1.8;
+                    color: $textLight;
+                    font-weight: 300;
+                    font-style: normal;
+                    text-rendering: optimizeLegibility;
+                    text-decoration: none;
+                    margin: 6px 0;
+                    &:hover {
+                        color: $accentColor;
+                    }
+                }
+                
+            }
         }
     }
 
     .contactForm {
-        max-width: 700px;
-        margin: 0 auto;
-        text-align: center;
-        padding: 0;
+        margin: 16px 0 24px 0;
 
-        .formField {
-            margin-bottom: 16px;
-            border-radius: 8px;
-            display: block;
-            font-size: 16px;
-            color: rgba(255, 255, 255, 0.7);
-            width: 100%;
-            padding: 16px;
-            outline: none;
-            background: transparent;
-            border: none;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            transition: all .4s ease-in-out;
+        .content {
+            margin: 38px auto 48px auto;
+            text-align: center;
+            padding: 0;
+            max-width: 700px;
 
-            &:focus {
-                color: white;
-                border-color: $accentColor;
+            .formField {
+                margin-bottom: 16px;
+                border-radius: 8px;
+                display: block;
+                font-size: 16px;
+                color: rgba(255, 255, 255, 0.7);
+                width: 100%;
+                padding: 16px;
+                outline: none;
+                background: transparent;
+                border: none;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                transition: all .4s ease-in-out;
+    
+                &:focus {
+                    color: white;
+                    border-color: $accentColor;
+                }
+            }
+    
+            textarea {
+                height: 220px;
+                font-family: 'Poppins', sans-serif;
+                resize: none;
+            }
+    
+            button {
+                font-size: 18px;
+                display: block;
+                letter-spacing: 2.5px;
+                height: 56px;
+                margin-top: 64px;
+                padding: 16px 28px;
+                border-radius: 8px;
+                width: 100%;
+                background: $accentColor;
+                color: #FFFFFF;
+                text-transform: uppercase;
+                border: none;
+                font-weight: 600;
+                transition: all .3s ease-in-out;
+    
+                &:hover {
+                    background: $accentColorDark;
+                }
             }
         }
+    }
 
-        textarea {
-            height: 220px;
-            font-family: 'Poppins', sans-serif;
-            resize: none;
+    h2 {
+        color: white;
+    }
+
+    .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        background-color: transparent;
+        outline: 0px;
+        margin: 0px;
+        cursor: pointer;
+        user-select: none;
+        vertical-align: middle;
+        appearance: none;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.75;
+        text-transform: uppercase;
+        padding: 5px 15px 5px 12px;
+        border-radius: 8px;
+    
+        margin-bottom: 8px;
+        
+        transition: all .25s ease-in-out;
+        
+        color: white;
+        background-color: rgba(0, 181, 217, 1);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+
+        border: none;
+
+        
+        &:hover {
+            background-color: rgb(0, 171, 206);
+            color: white;
+            box-shadow: rgba(0, 0, 0, .3) 0px 1px 12px;
         }
 
-        button {
-            font-size: 18px;
-            display: block;
-            letter-spacing: 2.5px;
+        width: 148px;
+
+        &.l {
             height: 56px;
-            margin-top: 64px;
-            padding: 16px 28px;
-            border-radius: 8px;
-            width: 100%;
-            background: $accentColor;
-            color: #FFFFFF;
-            text-transform: uppercase;
-            border: none;
-            font-weight: 600;
-            transition: all .3s ease-in-out;
-
-            &:hover {
-                background: $accentColorDark;
-            }
         }
     }
-
-    .contactInfo {
-        max-width: 700px;
-        margin: 68px auto;
-        display: flex;
-        justify-content: space-around;
-        text-align: center;
-
-        .wrapper {
-            width: 280px;
-
-            svg {
-                width: 42px;
-                height: 42px;
-                stroke: white;
-            }
-
-            h6 {
-                color: white;
-            }    
-
-            a {
-                margin-bottom: 38px;
-            }
-
-        }
-    }
-
 }

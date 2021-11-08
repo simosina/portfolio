@@ -33,7 +33,7 @@ export default function About() {
                         </p>
                         <p>
                             I get a kick out of developing wonderfull <strong>mobile and web applications</strong> by adopting a human-centered design process to deliver high quality user experiences.
-                            I builded software following both an <strong>agile</strong> and <strong>waterfall</strong> approach, increasing my knowledge for the main techniques and tools used to support the development.
+                            I builded software following both <strong>agile</strong> and <strong>waterfall</strong> approaches, increasing my knowledge in the main techniques and tools used to support the development.
                             I also have a robust knowledge in <strong>data analysis</strong> and some <strong>Machine Learning</strong> algorithms.
                         </p>
                         <p>
@@ -74,8 +74,10 @@ export default function About() {
             </div>
 
             <div className="skills">
-                <h6>&#8212; My skills</h6>
+                <h6>&#8212; Technical skills</h6>
                 <p>Bending Spoons: "Tech stack expertise. You’re flexible, with a generalist approach and a solid knowledge of a number of technologies, especially Java and HTML. Python is a handy nice-to-have, too."</p>
+            
+            
             </div>
 
         </section>

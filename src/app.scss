@@ -1,0 +1,18 @@
+@import "./global.scss";
+
+.app {
+
+    .wrapper {
+        @include mobile {
+            display: none;
+        } 
+    }
+
+    .comingSoon {
+        display: none;
+        
+        @include mobile {
+            display: flex;
+        }
+    }
+}
