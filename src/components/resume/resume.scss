@@ -1,67 +1,134 @@
 @import "../../global.scss";
 
 .resume {
-    background-color: $backgroundLight;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-color: white;
+    padding: $topBarHeight $paddingX 0 $paddingX;
 
-    h1 {
-        text-align: left;
+    .educations, .experiences {
         width: 100%;
-    }
+        margin: 18px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-    .wrapper {
-        width: fit-content;
-        
-        .experience {
-            margin-bottom: 36px;
-            display: flex;
-            flex-direction: row;
-            .left {
-                width: 280px;
+        .content {
 
-                h5 {
-                    margin: 0;
-                    font-weight: 600;
-                    font-size: 18px;
-                }
+            .row {
+                display: flex;
+                flex-direction: row;
+                position: relative;
 
-                p {
-                    font-size: 16px;
-                    font-weight: 300;
-                }
-            }
+                .left {
+                    width: 250px;
+                    display: flex;  
+                    flex-direction: column;   
+                    flex-wrap: wrap;
+                    margin-right: 32px;     
+                    text-align: right;
 
-            .right {
-                width: 460px;
-                
-                h5 {
-                    margin: 0;
-                    font-weight: 600;
-                    font-size: 18px
-                }
-
-                p, li {
-                    font-size: 16px;
-                    font-weight: 300;
-                }
-
-                .location {
-                    display: flex;
-                    align-items: center;
                     p {
-                        font-size: 16px;
-                        font-weight: 300;
-                        margin-left: 8px;
+                        font-size: 14px;
+                    }
+                }
+
+                .verticalLine {
+                    border-left: 1px solid rgba(0, 0, 0, 0.6);
+                    
+                    &.last {
+                        height: 16px;
+                    }
+                    &.first {
+                        margin-top: 8px;
+                    }
+                }
+                
+                .bullet {
+                    background: $backgroundDark;
+                    height: 13px;
+                    width: 13px;
+                    border-radius: 50%;
+                    margin-left: -6px;
+                    box-shadow: 0 0 0 4px #1515151f;
+                    position: absolute;
+                    left: 282px;
+                    top: 3px;
+                }
+
+                .right {
+                    width: 500px;
+                    margin-left: 32px;     
+
+                    .location {
+                        display: flex;
+
+                        p {
+                            margin-left: 8px;
+                            margin-bottom: 32px;
+                        }
                     }
                 }
             }
         }
+    }
 
-        hr {
-            opacity: .8;
+    p, li {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    h5 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    h6 {
+        margin-bottom: 16px;
+    }
+
+    strong {
+        font-weight: 600;
+    }
+
+    .outlinedButton {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        background-color: transparent;
+        outline: 0px;
+        margin: 0px;
+        cursor: pointer;
+        user-select: none;
+        vertical-align: middle;
+        appearance: none;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.75;
+        text-transform: uppercase;
+        padding: 5px 15px 5px 12px;
+        border-radius: 4px;
+    
+        margin-bottom: 8px;
+        
+        transition: all .25s ease-in-out;
+        
+        border: 1px solid rgba(0, 181, 217, 0.5);
+        color: rgba(0, 181, 217, 1);
+
+        svg {
+            transform: scale(.75);
+            margin-right: 4px;
+            width: 22px;
+            height: 22px;
         }
+        
+        &:hover {
+            border: 1px solid rgba(0, 181, 217, 1);
+            background-color: rgba(0, 181, 217, 0.075);
+        }
+        
     }
 }

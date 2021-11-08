@@ -1,4 +1,7 @@
 @import "../../global.scss";
 
 .portfolio {
+  width: 100vw;
+  padding: $topBarHeight $paddingX 0 $paddingX;
+  min-height: 80vh;
 }

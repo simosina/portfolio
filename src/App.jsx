@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import './app.scss';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Main from './components/main/Main';

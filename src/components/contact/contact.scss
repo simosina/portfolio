@@ -1,7 +1,8 @@
 @import "../../global.scss";
 
 .contact {
-    background-color: $darkBackground;
+    background-color: $backgroundDark;
+    padding: $topBarHeight $paddingX;
 
     .header {
         max-width: 700px;
@@ -9,41 +10,13 @@
         text-align: center;
         padding: 0;
 
-        h5 {
-            font-size: 18px;
-            line-height: 1.875;
-            letter-spacing: .2rem;
-            text-transform: uppercase;
-            color: $accentColor;
-            font-style: normal;
-            text-rendering: optimizeLegibility;
-            font-weight: 600;
-            margin: 0;
-            padding: 0;
-            margin-bottom: 8px;
-        }
-
         h1 {
-            font-size: 38px;
-            line-height: 1.25;
             color: white;
-            font-style: normal;
-            text-rendering: optimizeLegibility;
-            font-weight: 600;
-            margin: 0;
-            padding: 0;
             margin-bottom: 16px;
         }
 
         p {
-            font-size: 18px;
-            line-height: 1.8;
             color: rgba(255, 255, 255, 0.7);
-            font-style: normal;
-            text-rendering: optimizeLegibility;
-            font-weight: 200;
-            margin: 0;
-            padding: 0;
             margin-bottom: 38px;
         }
     }
@@ -66,7 +39,7 @@
             background: transparent;
             border: none;
             border: 1px solid rgba(255, 255, 255, 0.1);
-            transition: all 0.3s ease-in-out;
+            transition: all .4s ease-in-out;
 
             &:focus {
                 color: white;
@@ -94,6 +67,11 @@
             text-transform: uppercase;
             border: none;
             font-weight: 600;
+            transition: all .3s ease-in-out;
+
+            &:hover {
+                background: $accentColorDark;
+            }
         }
     }
 
@@ -111,38 +89,14 @@
                 width: 42px;
                 height: 42px;
                 stroke: white;
-
             }
 
-            h5 {
-                font-size: 18px;
-                line-height: 1.875;
-                letter-spacing: .1rem;
-                text-transform: uppercase;
+            h6 {
                 color: white;
-                font-style: normal;
-                text-rendering: optimizeLegibility;
-                font-weight: 600;
-                margin: 0;
-                padding: 0;
-                margin-bottom: 8px;
             }    
 
             a {
-                font-size: 18px;
-                line-height: 1.8;
-                color: rgba(255, 255, 255, 0.7);
-                font-style: normal;
-                text-rendering: optimizeLegibility;
-                font-weight: 200;
-                margin: 0;
-                padding: 0;
                 margin-bottom: 38px;
-                text-decoration: none;
-
-                &:hover {
-                    color: $accentColor;
-                }
             }
 
         }

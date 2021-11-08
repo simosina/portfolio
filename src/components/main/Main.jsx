@@ -7,7 +7,7 @@ export default function Main() {
                 <div className="wrapper">
                     <h4>Hi there, I am</h4>
                     <h1>Simone Sinagra</h1>
-                    <h4>Software Engineer</h4>
+                    <h3>Software Engineer</h3>
                     <div className="social">
                         <a href="https://github.com/simosina96" target="_blank" rel="noreferrer">
                             <img src="assets/github.svg" alt="" />
@@ -24,7 +24,7 @@ export default function Main() {
                 {/* download cv */}
             </div>
             <div className="right">
-
+                <img src="assets/simo.png" alt="" />
             </div>
         </div>
     )

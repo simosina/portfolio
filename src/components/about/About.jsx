@@ -14,10 +14,11 @@ export default function About() {
 
     return (
         <section className="about" id="about">
-            <h1>About Me</h1>
-            <div className="presentation">
+            <h2>About Me</h2>
+
+            <div className="profile">
                 <h6>&#8212; Who Am I</h6>
-                <div className="wrapper">
+                <div className="content">
                     <div className="left">
                         <h4> I am a
                             <span className="wordsWrapper">
@@ -30,7 +31,7 @@ export default function About() {
                         <p>Ciao, mi presento, mi chiamo Simone Sinagra. All'età di 25 anni ho conferito la laurea magistrale in Computer Engineer presso il Politecnico di Torino.
                             Durante la mia carriera universitaria ho avuto modo di sviluppare diversi progetti curriculari ed extra-curriculari, utilizzando la maggior parte delle tecnologie
                             moderne per lo sviluppo software. Amo sviluppare awesome applicazioni mobile e applicazioni per il web, ma ho anche un ottimo background nella data analysis e nei principali algoritmi di ML.
-                            Ho avuto modo di fare progetti seguendo sia la metodologia agile sia waterfall, e sono pronto a mettere in pratica queste conoscenze anche in progetti più grossi.
+                            Ho avuto modo di fare progetti seguendo sia approccio agile sia waterfall, e sono pronto a mettere in pratica tutte le mie conoscenze anche in grandi progetti.
                             Sono in continuo aggiornamento riguardo le tecnologie informatiche... E la mia curiosità mi porta a ricercare continuamente nuove opportunità. </p>
                     </div>
                     <div className="right">
@@ -48,9 +49,10 @@ export default function About() {
                     </div>
                 </div>
             </div>
+
             <div className="services">
                 <h6>&#8212; What I do</h6>
-                <div className="wrapper">
+                <div className="content">
                     <div className="service">
                         <h5>Mobile App Development</h5>
                         <p>Android</p>
@@ -69,9 +71,12 @@ export default function About() {
                     </div>
                 </div>
             </div>
+
             <div className="skills">
                 <h6>&#8212; My skills</h6>
+                <p>...</p>
             </div>
+
         </section>
     )
 }
