@@ -25,8 +25,7 @@ export default function Resume() {
                             </a>
                             <p><strong>Final grade: </strong> 110/110</p>
                             <div className="location">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 6.243 6.377 6.903 8 16.398 1.623-9.495 8-10.155 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.342-3 3-3 3 1.343 3 3-1.343 3-3 3z" /></svg>
-                                <p>Turin</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" /></svg>                                <p>Turin</p>
                             </div>
                         </div>
                     </div>
@@ -40,8 +39,7 @@ export default function Resume() {
                         <div className="right">
                             <h5>Bachelor's Degree in Computer Engineering</h5>
                             <div className="location">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 6.243 6.377 6.903 8 16.398 1.623-9.495 8-10.155 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.342-3 3-3 3 1.343 3 3-1.343 3-3 3z" /></svg>
-                                <p>Turin</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" /></svg>                                <p>Turin</p>
                             </div>
                         </div>
                     </div>
@@ -55,8 +53,7 @@ export default function Resume() {
                         <div className="right">
                             <h5>Secondary school diploma: Scientific High School, Applied Sciences option</h5>
                             <div className="location">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 6.243 6.377 6.903 8 16.398 1.623-9.495 8-10.155 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.342-3 3-3 3 1.343 3 3-1.343 3-3 3z" /></svg>
-                                <p>Turin</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" /></svg>                                <p>Turin</p>
                             </div>
                         </div>
                     </div>
@@ -74,15 +71,14 @@ export default function Resume() {
                         <span className="verticalLine first" />
                         <div className="bullet" />
                         <div className="right">
-                            <h5>Student Intern - Thesis</h5>
+                            <h5>Software Engineer Intern - Thesis</h5>
                             <ul>
                                 <li>Contributed to development of a project using Python and Neo4j (Cypher).</li>
                                 <li>Responsible for the extraction of high quality information from complex web traces, in order to classify the visits of an e-commerce customers.</li>
                             </ul>
-                            <p><strong>Key achievement: </strong> After a customer performs 10 actions on the website it can be classified correctly, as buyer or not, 95 times out of 100 by the developed algorithm.</p>
+                            <p><strong>Key achievement: </strong> Development of an algorithm capable to identify a potential online buyer when performing 10 actions, with 95% accuracy.</p>
                             <div className="location">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 6.243 6.377 6.903 8 16.398 1.623-9.495 8-10.155 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.342-3 3-3 3 1.343 3 3-1.343 3-3 3z" /></svg>
-                                <p>Turin</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" /></svg>                                <p>Turin</p>
                             </div>
                         </div>
                     </div>
@@ -94,15 +90,14 @@ export default function Resume() {
                         <span className="verticalLine last" />
                         <div className="bullet" />
                         <div className="right">
-                            <h5>Student Intern</h5>
+                            <h5>Software Engineer Intern</h5>
                             <ul>
                                 <li>Built an efficient ETL algorithm in Python to extract e-commerce customer visits and store them in a database.</li>
-                                <li>Analyzed 76.290 e-commerce customer browsing behavioral data over a 2-month period, using a Graph Technology.</li>
+                                <li>Analyzed around 80k e-commerce customer browsing behavioral data over a 2-month period, using a Graph Technology.</li>
                             </ul>
                             <p><strong>Key achievement: </strong> Extraction of complex, heterogeneous and unstructured data and efficient loading in a NoSQL database, for further data analysis.</p>
                             <div className="location">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 6.243 6.377 6.903 8 16.398 1.623-9.495 8-10.155 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.342-3 3-3 3 1.343 3 3-1.343 3-3 3z" /></svg>
-                                <p>Turin</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" /></svg>                                <p>Turin</p>
                             </div>
                         </div>
                     </div>

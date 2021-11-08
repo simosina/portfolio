@@ -53,6 +53,9 @@ export default function About() {
 
             <div className="services">
                 <h6>&#8212; What I do</h6>
+                <p>
+                    "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do." - Steve Jobs
+                </p>
                 <div className="content">
                     <div className="service">
                         <h5>Mobile App Development</h5>
@@ -75,9 +78,68 @@ export default function About() {
 
             <div className="skills">
                 <h6>&#8212; Technical skills</h6>
-                <p>Bending Spoons: "Tech stack expertise. You’re flexible, with a generalist approach and a solid knowledge of a number of technologies, especially Java and HTML. Python is a handy nice-to-have, too."</p>
-            
-            
+                <div className="content">
+                    <h5>Programming Languages</h5>
+                    <div className="wrapper">
+                        <div className="skill">
+                            <div className="skillName">C</div>
+                            <div className="skillBar">
+                                <div className="skillValue" percentage="90%" style={{ maxWidth: '90%' }}></div>
+                            </div>
+                        </div>
+                        <div className="skill">
+                            <div className="skillName">C++</div>
+                            <div className="skillBar">
+                                <div className="skillValue" percentage="80%" style={{ maxWidth: '80%' }}></div>
+                            </div>
+                        </div>
+                        <div className="skill">
+                            <div className="skillName">Java</div>
+                            <div className="skillBar">
+                                <div className="skillValue" percentage="90%" style={{ maxWidth: '90%' }}></div>
+                            </div>
+                        </div>
+                        <div className="skill">
+                            <div className="skillName">Kotlin</div>
+                            <div className="skillBar">
+                                <div className="skillValue" percentage="80%" style={{ maxWidth: '80%' }}></div>
+                            </div>
+                        </div>
+                        <div className="skill">
+                            <div className="skillName">Python</div>
+                            <div className="skillBar">
+                                <div className="skillValue" percentage="60%" style={{ maxWidth: '60%' }}></div>
+                            </div>
+                        </div>
+                        <div className="skill">
+                            <div className="skillName">HTML/CSS</div>
+                            <div className="skillBar">
+                                <div className="skillValue" percentage="80%" style={{ maxWidth: '80%' }}></div>
+                            </div>
+                        </div>
+                        <div className="skill">
+                            <div className="skillName">JavaScript</div>
+                            <div className="skillBar">
+                                <div className="skillValue" percentage="85%" style={{ maxWidth: '85%' }}></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="bottom">
+                        <div className="db">
+                            <h5>Databases</h5>
+                            <p>MySQL, Neo4j</p>
+                        </div>
+                        <div className="librariesFreamworks">
+                            <h5>Libraries e Freamworks</h5>
+                            <p>ReactJS, Angular, Node.js, JavaEE, Spring Frameworks, Hibernate</p>
+                        </div>
+                        <div className="other">
+                            <h5>Other software skills</h5>
+                            <p>Jira, Trello, Git, Docker</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </section>

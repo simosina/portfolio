@@ -1,13 +1,14 @@
 import { useEffect, useState } from 'react';
+import "./app.scss";
 import About from './components/about/About';
+import ComingSoon from './components/comingSoon/ComingSoon';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 import Main from './components/main/Main';
 import Portfolio from './components/portfolio/Portfolio';
 import Resume from './components/resume/Resume';
 import Topbar from "./components/topbar/Topbar";
 
-import "./app.scss";
-import ComingSoon from './comingSoon/ComingSoon';
 
 const SCROLL_OFFSET = 80;
 
@@ -44,6 +45,7 @@ function App() {
           <Portfolio />
           <Contact />
         </div>
+        <Footer />
       </div>
       <ComingSoon />
     </div>
