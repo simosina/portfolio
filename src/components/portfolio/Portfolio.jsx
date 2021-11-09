@@ -2,9 +2,29 @@ import "./portfolio.scss";
 
 export default function Portfolio() {
     return (
-        <div className="portfolio" id="portfolio">
-            <h1>Portfolio</h1>
-            <h6>&#8212; My projects</h6>
-        </div>
+        <section className="portfolio" id="portfolio">
+            <h2>Portfolio</h2>
+
+            <div className="projects">
+                <h6>&#8212; My projects</h6>
+
+                <div className="content">
+
+                    <div className="project">
+                        <div className="left">
+                            IMG
+                        </div>
+                        <div className="right">
+                            DESC
+                        </div>
+                    </div>
+
+                    <div className="project">
+                        Clean Kitchen - https://clean-kitchen.web.app/
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
     )
 }

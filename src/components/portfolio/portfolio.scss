@@ -2,7 +2,39 @@
 
 .portfolio {
   width: 100vw;
-  padding: $topBarHeight $paddingX 0 $paddingX;
-  min-height: 80vh;
-  background-color: $backgroundLight;
+  padding-top: $topBarHeight;
+  padding-bottom: $topBarHeight;
+  background-color: #f6f7fa;
+
+  .projects {
+    margin: 0 0 24px 0;
+    padding: 0 $paddingX 0 $paddingX;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin: 8px 0px 24px 0px;
+        padding: 12px;
+
+        .project {
+          font-size: 16px;
+          display: flex;
+          flex-wrap: wrap-reverse;
+          background-color: red;
+
+          .left {
+            flex: .4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: yellow;
+          }
+
+          .right {
+            flex: .6;
+            background-color: aqua;
+          }
+        }
+    }
+  }
 }
