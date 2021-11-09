@@ -10,6 +10,9 @@
         padding: 0 $sm_paddingX;
     }
 
+    overflow: hidden;
+
+
     .left {
         flex: 0.45;
         position: relative;
@@ -58,7 +61,6 @@
         flex: 0.5;
         position: relative;
         height: 100vh;
-        overflow: hidden;
 
         img {
             position: absolute;
