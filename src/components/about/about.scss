@@ -87,8 +87,43 @@
         padding: 0 $paddingX 0 $paddingX;
         background-color: $backgroundLight;
 
-        p {
+        .quote {
+            position: relative;
+            width: 50%;
             text-align: center;
+            padding-right: 42px;
+            padding-left: 42px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 16px;
+            margin: 32px auto;
+
+            .blockquote_start {
+                position: absolute;
+                left: 0;
+                top: 0;
+                fill: $textDark;
+                opacity: .8;
+            }
+
+            .blockquote_end {
+                position: absolute;
+                right: 0;
+                bottom: 32px;
+                fill: $textDark;
+                opacity: .8;
+            }
+
+            p {
+                color: $textDark;
+                font-style: oblique;
+                font-weight: 300;
+            }
+
+            span {
+                color: #424242;
+                font-weight: 200;
+            }
         }
         
         .content {
@@ -101,31 +136,71 @@
             .service {
                 display: flex;
                 flex-direction: column;
+                width: 260px;
+                height: 240px;
                 border-radius: 32px;
-                padding: 36px 28px;
-                margin: 28px 12px;
+                padding: 54px 24px 28px 24px;
+                margin: 12px 12px;
                 text-align: center;
                 flex-shrink: none;
                 cursor: default;
-
-                width: 260px;
-                height: 240px;
                 box-shadow: 5px 5px 10px #c6c6c6, -5px -5px 10px #ffffff;
+                transition: all .3s ease-in-out;
                 
-                transition: all .3s ease-in-out 0s;
+                h5 {
+                    transition: all 5s ease-in-out;
 
-                &:hover {
-                    color: $accentColor;
-                    box-shadow:  12px 12px 24px #c6c6c6, -12px -12px 24px #ffffff;
+                    transition: all .5s;
+                    margin-top: 28px;
+                    transition: all .5s;
+                    min-height: 60px;
+                    height: 60px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                }
+
+                img {
+                    opacity: 1;
+                    height: 48px;
+                    object-fit: contain;
+
+                    transition: all 1s;
                 }
 
                 p {
-                    margin-top: 8px;
-                    font-size: 16px;
+                    opacity: 0;
+                    height: 0;
+
+                    line-height: 1.2;
+                    font-size: 14px;
+
+                    transition: all 1s;
                 }
 
+                &:hover {
+                    box-shadow:  12px 12px 24px #c6c6c6, -12px -12px 24px #ffffff;
+                    
+                    h5 {
+                        min-height: 0px;
+                        color: $accentColor;
+                        margin-top: 0px;
+                        margin-bottom: 12px;
+                    }
+
+                    img {
+                        opacity: 0;
+                        height: 0;
+                    }
+
+                    p {
+                        opacity: 1;
+                    }
+                }
             }
         }
+
     }
 
     .skills {
@@ -164,7 +239,7 @@
 
                     .skillBar {
                         height: 8px;
-                        background: rgb(218, 218, 218);
+                        background: #00b5d935;
                         border-radius: 3px;
 
                         .skillValue {
@@ -179,7 +254,7 @@
                                 content: attr(percentage);
                                 position: absolute;
                                 padding: 4px 6px;
-                                background: #4e4e4e;
+                                background: #252525;
                                 color: white;
                                 border-radius: 4px;
                                 font-size: 12px;
@@ -193,7 +268,7 @@
                                 position: absolute;
                                 width: 10px;
                                 height: 10px;
-                                background: #4e4e4e;
+                                background: #252525;
                                 top: -20px;
                                 right: 0;
                                 transform: translateX(50%) rotate(45deg);

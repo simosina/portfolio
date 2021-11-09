@@ -6,13 +6,12 @@
     display: flex;
     height: 100vh;
     padding: 0 $paddingX;
-
     @include mobile {
         padding: 0 $sm_paddingX;
     }
 
     .left {
-        flex: 0.5;
+        flex: 0.45;
         position: relative;
 
         .wrapper {

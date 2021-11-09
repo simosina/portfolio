@@ -22,9 +22,9 @@ export default function About() {
                     <div className="left">
                         <h5> I am a
                             <span className="wordsWrapper">
-                                <span className={activeWord !== 0 && 'hidden'}>Front-End Developer</span>
-                                <span className={activeWord !== 1 && 'hidden'}>Big Data Analyst</span>
-                                <span className={activeWord !== 2 && 'hidden'}>Full Stack Developer</span>
+                                <span className={activeWord !== 0 ? 'hidden' : undefined}>Front-End Developer</span>
+                                <span className={activeWord !== 1 ? 'hidden' : undefined}>Big Data Analyst</span>
+                                <span className={activeWord !== 2 ? 'hidden' : undefined}>Full Stack Developer</span>
                             </span>
                         </h5>
 
@@ -53,23 +53,32 @@ export default function About() {
 
             <div className="services">
                 <h6>&#8212; What I do</h6>
-                <p>
-                    "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do." - Steve Jobs
-                </p>
+                <div className="quote">
+                    <svg className="blockquote_start" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z" /></svg>
+                    <svg className="blockquote_end" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11 9.275c0 5.141-3.892 10.519-10 11.725l-.984-2.126c2.215-.835 4.163-3.742 4.38-5.746-2.491-.392-4.396-2.547-4.396-5.149 0-3.182 2.584-4.979 5.199-4.979 3.015 0 5.801 2.305 5.801 6.275zm13 0c0 5.141-3.892 10.519-10 11.725l-.984-2.126c2.215-.835 4.163-3.742 4.38-5.746-2.491-.392-4.396-2.547-4.396-5.149 0-3.182 2.584-4.979 5.199-4.979 3.015 0 5.801 2.305 5.801 6.275z" /></svg>
+                    <p>
+                        Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.
+                    </p>
+                    <span>Steve Jobs</span>
+                </div>
                 <div className="content">
                     <div className="service">
+                        <img src="assets/mobile-dev.svg" alt="" />
                         <h5>Mobile App Development</h5>
                         <p>Android</p>
                     </div>
                     <div className="service">
+                        <img src="assets/web-dev.png" alt="" />
                         <h5>Web Development</h5>
                         <p>single page app / fully responsive - principalmente React.js</p>
                     </div>
                     <div className="service">
+                        <img src="assets/ux.svg" alt="" />
                         <h5>UI/UX Design</h5>
                         <p>I’m focused on building accessible, human-centered products</p>
                     </div>
                     <div className="service">
+                        <img src="assets/ml.svg" alt="" />
                         <h5>Big Data Analysis</h5>
                         <p>Machine Learning</p>
                     </div>
@@ -132,11 +141,11 @@ export default function About() {
                         </div>
                         <div className="librariesFreamworks">
                             <h5>Libraries e Freamworks</h5>
-                            <p>ReactJS, Angular, Node.js, JavaEE, Spring Frameworks, Hibernate</p>
+                            <p>ReactJS, Angular, JavaEE, Spring Frameworks, Hibernate</p>
                         </div>
                         <div className="other">
                             <h5>Other software skills</h5>
-                            <p>Jira, Trello, Git, Docker</p>
+                            <p>Jira, Git, Docker, Trello</p>
                         </div>
                     </div>
                 </div>
