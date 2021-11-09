@@ -63,7 +63,7 @@ export default function About() {
                 </div>
                 <div className="content">
                     <div className="service">
-                        <img src="assets/mobile-dev.svg" alt="" />
+                        <img src="assets/mobile-dev.png" alt="" />
                         <h5>Mobile App Development</h5>
                         <p>Android</p>
                     </div>
@@ -73,12 +73,12 @@ export default function About() {
                         <p>single page app / fully responsive - principalmente React.js</p>
                     </div>
                     <div className="service">
-                        <img src="assets/ux.svg" alt="" />
+                        <img src="assets/ux.png" alt="" />
                         <h5>UI/UX Design</h5>
                         <p>I’m focused on building accessible, human-centered products</p>
                     </div>
                     <div className="service">
-                        <img src="assets/ml.svg" alt="" />
+                        <img src="assets/ml.png" alt="" />
                         <h5>Big Data Analysis</h5>
                         <p>Machine Learning</p>
                     </div>

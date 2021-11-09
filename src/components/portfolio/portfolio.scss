@@ -19,15 +19,17 @@
         .project {
           font-size: 16px;
           display: flex;
-          flex-wrap: wrap-reverse;
-          background-color: red;
 
           .left {
             flex: .4;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: yellow;
+
+            img {
+              width: 100%;
+              object-fit: cover;
+            }
           }
 
           .right {

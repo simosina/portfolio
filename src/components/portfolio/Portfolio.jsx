@@ -12,7 +12,7 @@ export default function Portfolio() {
 
                     <div className="project">
                         <div className="left">
-                            IMG
+                            <img src="assets/projects/clean-kitchen.png" alt="" />
                         </div>
                         <div className="right">
                             DESC
@@ -22,7 +22,7 @@ export default function Portfolio() {
                     <div className="project">
                         Clean Kitchen - https://clean-kitchen.web.app/
                     </div>
-                    
+
                 </div>
             </div>
         </section>
