@@ -11,7 +11,7 @@ export default function Resume() {
                 <div className="content">
                     <div className="row">
                         <div className="left">
-                            <h5>Politecnico of Turin</h5>
+                            <h5>Politecnico di Torino</h5>
                             <p className="period">Mar 2019 - Oct 2021</p>
                         </div>
                         <span className="verticalLine first" />
@@ -31,7 +31,7 @@ export default function Resume() {
                     </div>
                     <div className="row">
                         <div className="left">
-                            <h5>Politecnico of Turin</h5>
+                            <h5>Politecnico di Torino</h5>
                             <p className="period">Sep 2015 - Mar 2019</p>
                         </div>
                         <span className="verticalLine" />
