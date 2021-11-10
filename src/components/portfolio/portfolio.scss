@@ -11,8 +11,6 @@
     padding: 0 $paddingX 0 $paddingX;
 
     .content {
-        display: flex;
-        flex-direction: column;
         margin: 8px 0px 24px 0px;
         padding: 12px;
 
@@ -20,21 +18,27 @@
           font-size: 16px;
           display: flex;
 
+          &.reverse {
+            flex-direction: row-reverse;
+          }
+
           .left {
-            flex: .4;
+            flex: .5;
             display: flex;
             justify-content: center;
             align-items: center;
+            min-height: 300px;
+            max-height: 350px;
 
             img {
               width: 100%;
-              object-fit: cover;
+              height: 100%;
+              object-fit: contain;
             }
           }
 
           .right {
-            flex: .6;
-            background-color: aqua;
+            flex: .5;
           }
         }
     }

@@ -65,22 +65,22 @@ export default function About() {
                     <div className="service">
                         <img src="assets/mobile-dev.png" alt="" />
                         <h5>Mobile App Development</h5>
-                        <p>Android</p>
+                        <p>Build Android native applications & optimize the runtime performance.</p>
                     </div>
                     <div className="service">
                         <img src="assets/web-dev.png" alt="" />
                         <h5>Web Development</h5>
-                        <p>single page app / fully responsive - principalmente React.js</p>
+                        <p>Develop Traditional Web Applications and Single Page Application & design fully responsive UI.</p>
                     </div>
                     <div className="service">
                         <img src="assets/ux.png" alt="" />
                         <h5>UI/UX Design</h5>
-                        <p>I’m focused on building accessible, human-centered products</p>
+                        <p>Build accessible, human-centered products & design satisfying and frustration-free interfaces.</p>
                     </div>
                     <div className="service">
                         <img src="assets/ml.png" alt="" />
                         <h5>Big Data Analysis</h5>
-                        <p>Machine Learning</p>
+                        <p>Process, Analyze and Manage large data to unlock the value they can offer.</p>
                     </div>
                 </div>
             </div>

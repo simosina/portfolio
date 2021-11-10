@@ -1,24 +1,22 @@
 import "./contact.scss";
 
 import emailjs from 'emailjs-com';
-import { useRef, useState } from "react";
+import { useRef } from "react";
 
 
-export default function Contact() {
+export default function Contact({ setVisible }) {
     const form = useRef();
-
-    const [sent, setSent] = useState(false);
 
     const sendEmail = (e) => {
         e.preventDefault();
 
         emailjs.sendForm('service_v74pkg7', 'template_fb2hi8q', form.current, 'user_ipAJuOymplYfCAyMmyB5X')
-            .then((result) => {
-                console.log(result.text);
-                setSent(true);
+            .then(() => {
+                setVisible(true);
+                form.current.reset();
             }, (error) => {
                 console.log(error.text);
-            });
+            })
     }
 
     return (
@@ -49,7 +47,6 @@ export default function Contact() {
                         <input className="formField" type="text" name="subject" placeholder="Subject" required="required" />
                         <textarea className="formField" name="message" placeholder="Type your message..." spellCheck="false" required="required" />
                         <button id="formSubmit" type="submit" name="submit">Send Message</button>
-                        {sent && "Thank you..."}
                     </form>
                 </div>
             </div>
