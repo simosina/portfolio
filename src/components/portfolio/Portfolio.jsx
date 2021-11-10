@@ -12,20 +12,20 @@ export default function Portfolio() {
 
                     <div className="project">
                         <div className="left">
-                            <img src="assets/projects/twice-but-nice.png" alt="" />
-                        </div>
-                        <div className="right">
-                            DESCRIPTION
-                        </div>
-                    </div>
-
-                    <div className="project reverse">
-                        <div className="left">
                             <img src="assets/projects/clean-kitchen.png" alt="" />
                         </div>
                         <div className="right">
                             DESCRIPTION
                             Clean Kitchen - https://clean-kitchen.web.app/
+                        </div>
+                    </div>
+
+                    <div className="project reverse">
+                        <div className="left">
+                            <img src="assets/projects/twice-but-nice.png" alt="" />
+                        </div>
+                        <div className="right">
+                            DESCRIPTION
                         </div>
                     </div>
 
