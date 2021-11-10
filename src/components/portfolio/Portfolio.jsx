@@ -59,8 +59,9 @@ export default function Portfolio() {
                                     Clean Kitchen
                                 </h5>
                                 <p className="description">
-                                    With our app you will find delicious recipes to cook, but here's the twist:
-                                    you will be able to use voice commands to navigate through each step of the recipe, so that you won't have to worry about having dirty hands while using your phone!
+                                    DESCRIPTION...
+                                    {/*With our app you will find delicious recipes to cook, but here's the twist:
+                                    you will be able to use voice commands to navigate through each step of the recipe, so that you won't have to worry about having dirty hands while using your phone! */ }
                                 </p>
                             </div>
                             <div className="technologies">
@@ -87,9 +88,10 @@ export default function Portfolio() {
                                     University Web Portal
                                 </h5>
                                 <p className="description">
-                                    Si richiede di sviluppare una applicazione front-end, basata su Angular, per la gestione di gruppi di studenti
+                                    DESCRIPTION...
+                                    {/*Si richiede di sviluppare una applicazione front-end, basata su Angular, per la gestione di gruppi di studenti
                                     all’interno di corsi universitari che offra all’utente più viste per le diverse funzioni, scambi dati con un
-                                    servizio REST remoto e permetta l’autenticazione degli utenti.
+                                    servizio REST remoto e permetta l’autenticazione degli utenti.*/}
                                 </p>
                             </div>
                             <div className="technologies">
