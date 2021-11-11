@@ -4,18 +4,26 @@
     background-color: #151515;
     color: white;
     display: flex;
-    height: 100vh;
-    padding: 0 $paddingX;
+    padding: 128px $paddingX 0 $paddingX;
+    overflow: hidden;
+    min-height: 100vh;
+    height: fit-content;
+
     @include mobile {
-        padding: 0 $sm_paddingX;
+        padding: 80px $sm_paddingX 0 $sm_paddingX;
     }
 
-    overflow: hidden;
-
+    @include tablet {
+        padding: 80px $md_paddingX 0 $md_paddingX;
+    }
+    
 
     .left {
-        flex: 0.45;
+        flex: 0.5;
         position: relative;
+        min-height: fit-content;
+        padding-top: 18px;
+        padding-bottom: 42px;
 
         .wrapper {
             width: 100%;
@@ -42,11 +50,21 @@
                 align-items: center;
                 margin-top: 48px;
 
+                @include tablet {
+                    margin-top: 28px;
+                }
+
                 img {
                     opacity: .5;
                     width: 32px;
                     height: 32px;
                     margin-right: 32px;
+
+                    @include tablet {
+                        margin-right: 18px;
+                        width: 28px;
+                        height: 28px;
+                    }
 
                     &:hover {
                         opacity: 1;
@@ -59,12 +77,13 @@
 
     .right {
         flex: 0.5;
+        align-self: flex-end;
         position: relative;
         height: 100vh;
 
         img {
             position: absolute;
-            top: 80px;
+            bottom: 0;
             height: 100vh;
         }
     }

@@ -13,9 +13,14 @@
 
     padding: $sm_paddingX;
 
+    position: relative;
+
     .logo {
-        width: 20%;
+        width: 15%;
         margin-bottom: 48px;
+        margin-top: 48px;
+        position: absolute;
+        top: 0;
     }
 
     h1 {

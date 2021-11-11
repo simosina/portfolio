@@ -10,6 +10,14 @@
     margin: 0 0 24px 0;
     padding: 0 $paddingX 0 $paddingX;
 
+    @include mobile {
+      padding: 0 $sm_paddingX 0 $sm_paddingX;
+    }
+
+    @include tablet {
+        padding: 0 $md_paddingX 0 $md_paddingX;
+    }
+
     .content {
         margin: 8px 0px 24px 0px;
         padding: 12px;
@@ -30,6 +38,14 @@
           background-color: white;
           border: 1px solid rgba(0, 0, 0, .1);
           
+          @include tablet {
+            width: 100%;
+          }
+
+          @include large-screen {
+            width: 100%;
+          }
+
           .left {
             flex: .6;
             display: flex;

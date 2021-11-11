@@ -13,6 +13,14 @@
         margin: 0 0 24px 0;
         padding: 0 $paddingX 0 $paddingX;
 
+        @include mobile {
+            padding: 0 $sm_paddingX 0 $sm_paddingX;
+        }
+    
+        @include tablet {
+            padding: 0 $md_paddingX 0 $md_paddingX;
+        }
+
         .content {
             display: flex;
             flex-direction: row;
@@ -21,6 +29,14 @@
             .left {
                 flex: .5;
                 text-align: left;
+
+                @include mobile {
+                    flex: 1;
+                }
+              
+                @include tablet {
+                    flex: 1; 
+                }
     
                 h5 {
                     display: inline-block;
@@ -68,6 +84,14 @@
                 justify-content: center;
                 align-content: center;
 
+                @include mobile {
+                    flex: 0;
+                }
+              
+                @include tablet {
+                    flex: 0; 
+                }
+
                 img {
                     width: 60%;
                     max-height: 600px;
@@ -86,6 +110,14 @@
     .services {
         padding: 0 $paddingX 0 $paddingX;
         background-color: $backgroundLight;
+
+        @include mobile {
+            padding: 0 $sm_paddingX 0 $sm_paddingX;
+        }
+    
+        @include tablet {
+            padding: 0 $md_paddingX 0 $md_paddingX;
+        }
 
         .quote {
             position: relative;
@@ -211,6 +243,14 @@
 
     .skills {
         padding: 0 $paddingX 0 $paddingX;
+
+        @include mobile {
+            padding: 0 $sm_paddingX 0 $sm_paddingX;
+        }
+    
+        @include tablet {
+            padding: 0 $md_paddingX 0 $md_paddingX;
+        }
         
         p {
             text-align: center;

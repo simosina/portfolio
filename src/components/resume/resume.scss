@@ -2,8 +2,16 @@
 
 .resume {
     background-color: $backgroundDark;
-    padding: $topBarHeight $paddingX $topBarHeight $paddingX;
+    padding: $topBarHeight $paddingX;
     color: white;
+
+    @include mobile {
+        padding: $sm_topBarHeight $sm_paddingX;
+    }
+
+    @include tablet {
+        padding: $md_topBarHeight $sm_paddingX;
+    }
 
     .educations, .experiences {
         width: 100%;

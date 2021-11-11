@@ -8,22 +8,40 @@ $accentColor: #00b4d9;
 $accentColorDark: #0098b6;
 
 $topBarHeight: 80px;
+$sm_topBarHeight: 60px;
+$md_topBarHeight: 60px;
 
 $paddingX: 98px;
 $sm_paddingX: 28px;
+$md_paddingX: 32px;
 
 
 /* RESPONSIVE */ 
-$mobileWidth: 576px;
+/* 
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+*/
+
+$mobileWidth: 480px;
 @mixin mobile {
     @media screen and (max-width: #{$mobileWidth}) {
         @content;
     }
 }
 
-$tabletWidth: 1024px;
+$tabletWidth: 768px;
 @mixin tablet {
     @media screen and (max-width: #{$tabletWidth}) {
         @content;
     }
 }
+
+$largeWidth: 1024px;
+@mixin large-screen {
+    @media screen and (max-width: #{$largeWidth}) {
+        @content;
+    }
+}
+
+
