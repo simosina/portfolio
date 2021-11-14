@@ -28,7 +28,8 @@ export default function Portfolio() {
                                     Personal Website
                                 </h5>
                                 <p className="description">
-                                    DESCRIPTION...
+                                    Fully front-end project developed in React, using JavaScript, HTML and SCSS. It contains personal information and some of my mainly projects. 
+                                    Designed to be a responsive website, it will also be optimized for mobile devices in a short time.
                                 </p>
                             </div>
                             <div className="technologies">
@@ -59,9 +60,7 @@ export default function Portfolio() {
                                     Clean Kitchen
                                 </h5>
                                 <p className="description">
-                                    DESCRIPTION...
-                                    {/*With our app you will find delicious recipes to cook, but here's the twist:
-                                    you will be able to use voice commands to navigate through each step of the recipe, so that you won't have to worry about having dirty hands while using your phone! */ }
+                                    Mobile browser app developed following a human-centered design process. It contains some recipes and users can navigate through each step of a recipe using only voice commands. It was eveloped in React as a workaround to allow all the team members to contribute.
                                 </p>
                             </div>
                             <div className="technologies">
@@ -88,10 +87,7 @@ export default function Portfolio() {
                                     University Web Portal
                                 </h5>
                                 <p className="description">
-                                    DESCRIPTION...
-                                    {/*Si richiede di sviluppare una applicazione front-end, basata su Angular, per la gestione di gruppi di studenti
-                                    all’interno di corsi universitari che offra all’utente più viste per le diverse funzioni, scambi dati con un
-                                    servizio REST remoto e permetta l’autenticazione degli utenti.*/}
+                                    Single Page Application, based on Angular, for the management of an university students. The front-end offers different views and exchanges data with a remote REST service, developed with Spring.
                                 </p>
                             </div>
                             <div className="technologies">
@@ -119,7 +115,7 @@ export default function Portfolio() {
                                     Concurrent Text Editor
                                 </h5>
                                 <p className="description">
-                                    DESCRIPTION...
+                                    This text-editor allows people to share and work together on the same documents. This project focus is mainly in managing the concurrent use of resources. It was developed in C++, using Clion as IDE and QT as a cross-platform library for the graphical user interface development.
                                 </p>
                             </div>
                             <div className="technologies">
@@ -141,7 +137,7 @@ export default function Portfolio() {
                                     ToBici
                                 </h5>
                                 <p className="description">
-                                    DESCRIPTION...
+                                    Android Mobile App designed as a variant of the official ToBike App. It is an application for the management of the first bike sharing service in Turin. It was developed in Java with Android Studio as IDE.
                                 </p>
                             </div>
                             <div className="technologies">
@@ -166,7 +162,7 @@ export default function Portfolio() {
                                     Twice But Nice
                                 </h5>
                                 <p className="description">
-                                    DESCRIPTION...
+                                    Twice But Nice is a Mobile Application, developed in Kotlin, used to buy and sell cars, clothes, electronic devices and other stuff online. Android Studio was used as IDE and Firebase as a real-time NoSQL database.
                                 </p>
                             </div>
                             <div className="technologies">
