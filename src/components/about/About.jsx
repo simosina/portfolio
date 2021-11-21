@@ -29,11 +29,11 @@ export default function About() {
                         </h5>
 
                         <p>
-                            Hi, I'm Simone. Let me introduce myself... In 2021, I graduated from <strong>Politecnico di Torino</strong> with a degree in <strong>Computer Engineering</strong>. During the university career I had the opportunity to develop several projects, on my own and within teams, using most of the modern technologies for software development.
+                            Hi, I'm Simone. Let me introduce myself... In 2021, I graduated from <strong>Politecnico di Torino</strong> with a degree in <strong>Computer Engineering</strong>. During the university career I had the opportunity to work on several projects, on my own and within teams, using most of the modern technologies for software development.
                         </p>
                         <p>
                             I get a kick out of developing wonderfull <strong>mobile and web applications</strong> by adopting a human-centered design process to deliver high quality user experiences.
-                            I builded software following both <strong>agile</strong> and <strong>waterfall</strong> approaches, increasing my knowledge in the main techniques and tools used to support the development.
+                            I built software following both <strong>agile</strong> and <strong>waterfall</strong> approaches, increasing my knowledge in the main techniques and tools used to support the development.
                             I also have a robust knowledge in <strong>data analysis</strong> and some <strong>Machine Learning</strong> algorithms.
                         </p>
                         <p>
