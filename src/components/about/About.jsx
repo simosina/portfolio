@@ -91,6 +91,18 @@ export default function About() {
                     <h5>Programming Languages</h5>
                     <div className="wrapper">
                         <div className="skill">
+                            <div className="skillName">JavaScript</div>
+                            <div className="skillBar">
+                                <div className="skillValue" percentage="95%" style={{ maxWidth: '95%' }}></div>
+                            </div>
+                        </div>
+                        <div className="skill">
+                            <div className="skillName">HTML/CSS</div>
+                            <div className="skillBar">
+                                <div className="skillValue" percentage="90%" style={{ maxWidth: '90%' }}></div>
+                            </div>
+                        </div>
+                        <div className="skill">
                             <div className="skillName">C</div>
                             <div className="skillBar">
                                 <div className="skillValue" percentage="90%" style={{ maxWidth: '90%' }}></div>
@@ -117,19 +129,7 @@ export default function About() {
                         <div className="skill">
                             <div className="skillName">Python</div>
                             <div className="skillBar">
-                                <div className="skillValue" percentage="60%" style={{ maxWidth: '60%' }}></div>
-                            </div>
-                        </div>
-                        <div className="skill">
-                            <div className="skillName">HTML/CSS</div>
-                            <div className="skillBar">
-                                <div className="skillValue" percentage="80%" style={{ maxWidth: '80%' }}></div>
-                            </div>
-                        </div>
-                        <div className="skill">
-                            <div className="skillName">JavaScript</div>
-                            <div className="skillBar">
-                                <div className="skillValue" percentage="85%" style={{ maxWidth: '85%' }}></div>
+                                <div className="skillValue" percentage="75%" style={{ maxWidth: '75%' }}></div>
                             </div>
                         </div>
                     </div>
